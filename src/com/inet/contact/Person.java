@@ -1,7 +1,26 @@
+/*****************************************************************
+   Copyright 2013 by Hien Nguyen (hiennguyen@inetcloud.vn)
+
+   Licensed under the iNet Solutions Corp.,;
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.inetcloud.vn/licenses
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+ *****************************************************************/
+package com.inet.contact;
+
+import com.inet.xportal.web.WebConstant;
+import com.inet.xportal.web.annotation.XPortalModel;
+
 @XPortalModel(name = "contactpersonmodel", result = WebConstant.ACTION_XSTREAM_JSON_RESULT)
 public class Person {
-  private String uuid;
-
+  	private String uuid;
 	private String fullname;
 	private String sex;
 	private String birthday;
@@ -48,7 +67,7 @@ public class Person {
 		this.birthday = birthday;
 	}
 
-  public String getRegion() {
+  	public String getRegion() {
 		return region;
 	}
 
