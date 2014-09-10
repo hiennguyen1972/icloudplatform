@@ -1,4 +1,4 @@
 icloudplatform
 ==============
 
-Open Platform for cloud services development and deployment
+An Open Platform for cloud services development and deployment.
